@@ -1,4 +1,4 @@
-package Assignment;
+package Assignment2;
 
 import java.util.Scanner;
 
@@ -9,13 +9,10 @@ public class PerfectNumber {
 			if(num%i==0) {
 				sum=sum+i;
 				System.out.println("Sum:"+sum);
-//				System.out.println("Divisiors:"+i);
 			}
 		}
 		return sum==num;
-		
 	}
-		
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number:");
@@ -27,5 +24,4 @@ public class PerfectNumber {
 		}
 		sc.close();
 	}
-
 }

@@ -15,5 +15,6 @@ public class GCD {
 			}
 		}
 		System.out.println("GCD:"+g);
+		sc.close();
 	}
 }

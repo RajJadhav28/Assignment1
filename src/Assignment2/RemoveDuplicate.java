@@ -1,12 +1,11 @@
-package Assignment;
+package Assignment2;
 
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class Remove_duplicate {
-
-    public static void main(String[] args) {
-    	Scanner sc=new Scanner(System.in);
+public class RemoveDuplicate {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the size of array:");
 		int n=sc.nextInt();
 		int arr[]=new int[n];
@@ -15,13 +14,13 @@ public class Remove_duplicate {
 			arr[i]=sc.nextInt();
 		}
 		HashSet<Integer>uniqueElements=new HashSet<Integer>();
-		HashSet<Integer>duplicateElement=new HashSet<Integer>();
+		HashSet<Integer>duplicateElements=new HashSet<Integer>();
 		HashSet<Integer>allElements=new HashSet<Integer>();
 		
 		int duplicate=0;
 		for(int num:arr) {
 			if(!allElements.add(num)) {
-				duplicateElement.add(num);
+				duplicateElements.add(num);
 				duplicate++;
 				uniqueElements.remove(num);
 			}else {
@@ -29,9 +28,9 @@ public class Remove_duplicate {
 			}
 		}
 		System.out.println("No. of duplicate elements:"+duplicate);
-		System.out.println("Duplicate elements:"+duplicateElement);
+		System.out.println("Duplicate elements:"+duplicateElements);
 		System.out.println("Unique elements:"+uniqueElements);
 		System.out.println("Array after removing duplicate elements:"+allElements);
-	sc.close();
-    }
+		sc.close();
+	}
 }

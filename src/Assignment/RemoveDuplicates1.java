@@ -30,7 +30,7 @@ public class RemoveDuplicates1 {
 				j++;
 			}
 		}
-		temp[j++]=arr[arr.length-1];
+		temp[j]=arr[arr.length-1];
 		System.out.println("Array after removing the duplicate elements:");
 		for(int i=0;i<j;i++) {
 			System.out.print(temp[i]+" ");

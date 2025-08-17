@@ -9,7 +9,7 @@ public class Pattern21 {
         for (int i = 1; i <= n; i++) { // Outer loop for rows
             
             // Inner loop to print leading spaces for alignment
-            for (int j = i; j < n; j++) {
+            for (int j = 1; j <=n-i; j++) {
                 System.out.print(" ");
             }
             

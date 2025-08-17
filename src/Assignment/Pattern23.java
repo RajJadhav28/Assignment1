@@ -9,7 +9,7 @@ public class Pattern23 {
             int number = 2 * i - 1; // Calculate the odd number for the current row
             
             // Inner loop to print leading spaces for alignment
-            for (int j = i; j < n; j++) {
+            for (int j = 1; j <=n-i; j++) {
                 System.out.print(" ");
             }
             

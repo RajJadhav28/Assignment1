@@ -12,7 +12,7 @@ public class Multiplication_table {
 			int sum=n*i;
 			System.out.println(sum);
 		}
-
+		sc.close();
 	}
 
 }
