@@ -13,7 +13,7 @@ public class Pattern30 {
 		// prints two vertical lines  
 		if ((j == 0 || j == n / 2) && i != 0 ||  
 		// print first line of alphabet  
-		i == 0  && j != n / 2 ||   
+		i == 0  && j != n / 2 ||
 		// prints middle line  
 		i == n / 2)   
 		System.out.print("*");  

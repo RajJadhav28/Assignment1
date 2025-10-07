@@ -15,6 +15,6 @@ public class Even_no_1to100 {
 				System.out.print(i+" ");
 			}
 		}
+		sc.close();
 	}
-
 }

@@ -8,8 +8,8 @@ public class AbsoluteNumber {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number:");
 		int n=sc.nextInt();
-		int abs=Math.abs(n);
-		System.out.println("The absolute value of "+n+" is "+abs);
+		int abs1=Math.abs(n);
+		System.out.println("The absolute value of "+n+" is "+abs1);
 		sc.close();
 	}
 
