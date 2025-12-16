@@ -1,15 +1,12 @@
-package Assignment4;
+package Assignment5;
 
-import java.util.Scanner;
-
-public class StartsWithT1 {
+public class StartsWithT {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
 		String arr[]= {"Mango","Grapes","Pineapple","Orange","Guava"};
 		boolean found=false;
 		for(int i=0;i<arr.length;i++) {
 			String s1=arr[i];
-			if(!s1.isEmpty()&&s1.charAt(0)=='T') {
+			if(s1.charAt(0)=='T') {
 				System.out.println("found at position:"+(i+1));
 				found=true;
 			}

@@ -28,5 +28,6 @@ public class Pro7 {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }
