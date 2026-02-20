@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Swapping {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a sentence:");
+		System.out.println("Enter a sentence1:");
 		String s=sc.nextLine();
 		
 		String words[]=s.split(" ");
